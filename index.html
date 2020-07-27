@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Motorsports Trip</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet"
+    type="text/css"
+    />
+    <!--imported fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Condensed&display=swap" 
+    rel="stylesheet"
+    />
+    <!--stylesheet-->
+      <link 
+      href="style.css"    
+      rel="stylesheet"
+      type="text/css" 
+      />
+  </head>
+
+  <!--dark background applied to body, page dark by default, unless light-background class applied-->
+  <body class="dark-background">
+
+    <!--header with dark background and light letters-->
+    <header id="home">
+      <div>
+        <div>
+          <h1>Motosports Trip</h1>
+        </div>
+        <div class="right">
+          <nav >
+            <ul>
+              <li><a href="#home">Home</a></li>
+         
+              <li><a href="#about">About</a></li>
+          
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+  <!--main section with light background and dark letters-->
+    <main class="light-background">
+      <div>
+        <article id="intro" class="center">
+          <div>
+  <!--my image centered and resized to 1/4 the page width -->
+            <img class="center " src="images/red-racing-car-on-race-track-during-daytime-158971.jpg" alt="self-portrait">
+          </div>
+          <!--Intro section - who i am-->
+          <h3>Event Search</h3>
+          <p>Enter the state and city that you would like to attend a motorsports event, 
+            and will help you locate events, accomodations, food, and attractions. 
+            <form action="https://formspree.io/randy.e.douglas@gmail.com"
+            method="post">
+              
+                  <div>
+                    <label for="name"> City: </label>
+                    <input id="name" placeholder="Sacramento" type="text" required name="name">
+                    
+                  </div>
+                  <div>
+                    <label for="email"> State: </label>
+                    <input id="email" placeholder="CA" type="email" required name="email">
+                  </div>
+            
+                  <button>Submit</button>
+            </form>
+           
+          </article>
+        </div>
+      </p>
+      <!--Horizontal rule dividing the divs-->
+      <hr class="center" id="about">
+      <div>
+        <article class="center">
+          <!--About Me Section -->
+          <h3>About Motorsports Trip</h3>
+          <p>
+          Motorsports Trip is a free resource for motorsports enthusiasts that are planning a trip.  
+          Whether its a trip with your buds, or a family excursions, the fun doesn't need to stop once the event is over.  
+          </p>
+          <!-- lists about me-->
+  
+                
+        </article>
+      </div>
+      <!--Horizontal rule dividing the divs-->
+
+<!-- Project Section -->
+
+
+      <hr class="center" id="contact">
+
+      <div >
+        <!-- Contact Section-->
+        <article class="center">
+          <h3>Contact</h3>
+    
+          <div>
+    <!--image of map, my current area-->
+    <form action="https://formspree.io/randy.e.douglas@gmail.com"
+    method="post">
+      <fieldset>
+        <legend>Contact Form</legend>
+          <div>
+            <label for="name"> Name: </label>
+            <input id="name" placeholder="First and Last Name" type="text" required name="name">
+            
+          </div>
+          <div>
+            <label for="email"> Email: </label>
+            <input id="email" placeholder="Email Address" type="email" required name="email">
+          </div>
+          <div>
+            <label for="form-message"> Your Message: </label>
+            <textarea id="form-message"  required name="message"></textarea>
+          </div>
+          <button>Submit</button>
+      </fieldset>
+    </form>          </div>
+        </article>
+      </div>
+    </main>
+
+  <!--footer with dark background by default - information about creator-->
+    <footer> <p>Created by Randy Douglas</p></footer>
+  </body>
+</html>
